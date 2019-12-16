@@ -1,0 +1,49 @@
+/* GENERAL */
+h1 {
+    font-weight: bold;
+    margin: 2.8rem 0 2.8rem 0;
+}
+
+.text-color-primary {
+    color: #00b0ff;
+}
+
+.text-color-light {
+    color: white;
+}
+
+.text-color-dark {
+    color: rgba(0,0,0,0.87);
+}
+
+.text-white-stroke {
+    text-shadow: -1px -1px 0 rgb(255, 255, 255), 1px -1px 0 rgb(255, 255, 255), -1px 1px 0 rgb(255, 255, 255), 1px 1px 0 rgb(255, 255, 255);
+}
+
+/* PROJECT */
+
+.project-icon {
+    color: #00b0ff;
+    font-size: 7rem;
+}
+
+.project-title {
+    font-size: 1.5rem;
+}
+
+.project-description {
+    font-size: 1.25rem;
+}
+
+/* TEAM */
+
+.team-description {
+    font-size: 1.5rem;
+    font-style: italic; 
+}
+
+/* CONTACT */
+
+.contact-icon {
+    font-size: 2rem;
+}

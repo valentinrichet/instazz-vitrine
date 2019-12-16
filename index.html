@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--Import Google Icon Font-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <!-- Add icon library -->
+    <link type="text/css" rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+        media="screen,projection" />
+    <!--Import style.css-->
+    <link type="text/css" rel="stylesheet" href="./style.css" media="screen,projection" />
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+</head>
+
+<body>
+    <header>
+        <nav class="light-blue accent-3">
+            <div class="nav-wrapper container">
+                <a href="#!" class="brand-logo">FoodGram</a>
+                <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="#project"><i class="material-icons left">whatshot</i>Le projet</a></li>
+                    <li><a href="#team"><i class="material-icons left">person</i>La team</a></li>
+                    <li><a href="#contact"><i class="material-icons left">sms</i>Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <ul class="sidenav" id="mobile-demo">
+            <li><a href="#project"><i class="material-icons left">whatshot</i>Le projet</a></li>
+            <li><a href="#team"><i class="material-icons left">person</i>La team</a></li>
+            <li><a href="#contact"><i class="material-icons left">sms</i>Contact</a></li>
+        </ul>
+
+    </header>
+
+    <div class="parallax-container">
+        <div class="parallax"><img src="images/parallax.jpg"></div>
+        <div class="container center valign-wrapper" style="height: 100%;">
+            <h1 class="text-color-dark text-white-stroke">Instagram mais pour la nourriture uniquement !</h1>
+        </div>
+    </div>
+
+    <section id="project">
+        <div class="container center">
+            <h1>Le projet</h1>
+
+            <div class="row">
+                <div class="col m4 s12">
+                    <i class="material-icons project-icon">camera_alt</i>
+                    <p class="project-title">Partagez vos photos de burgers</p>
+                    <p class="light project-description">Vous allez au restaurant et souhaitez partager ce joli festin ?
+                        FoodGram est fait pour vous !</p>
+                </div>
+
+                <div class="col m4 s12">
+                    <i class="material-icons project-icon">favorite</i>
+                    <p class="project-title">Trouvez des idées de plat</p>
+                    <p class="light project-description">Sur FoodGram, vous pouvez retrouver de nombreux plats,
+                        peut-être que l'un d'entre-eux ferait un bon repas...</p>
+                </div>
+
+                <div class="col m4 s12">
+                    <i class="material-icons project-icon">group</i>
+                    <p class="project-title">Une communauté qui grandit</p>
+                    <p class="light project-description">Nous avons de plus en plus d'utilisateurs chaque jour,
+                        rejoignez la communauté FoodGram aujourd'hui !</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="team" class="blue-grey darken-4 text-color-light">
+        <div class="container center">
+            <h1>La team</h1>
+            <div class="row">
+                <div class="col m6 s12">
+                    <img src="images/jorane.jpg" alt="Photo de Jorane Emilien"
+                        class="circle responsive-img materialboxed" style="display: inline-block; height: 228px;">
+                    <h4>
+                        Jorane Emilien
+                    </h4>
+                </div>
+                <div class="col m6 s12">
+                    <img src="images/valentin.jpg" alt="Photo de Valentin Richet"
+                        class="circle responsive-img materialboxed center"
+                        style="display: inline-block; height: 228px;">
+                    <h4>
+                        Valentin Richet
+                    </h4>
+                </div>
+                <div class="col s12">
+                    <p class="light team-description">
+                        Deux étudiants formés à l'Institut Supérieur d’Informatique, de Modélisation et de leurs
+                        Applications (ISIMA), passionnés par l'informatique et bien évidemment, la nourriture !
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" style="margin-bottom: 2.8rem;">
+        <div class="container center">
+            <h1 style="margin: 0 0 2.8rem 0;">Contact</h1>
+            <div class="row">
+                <div class="col s3">
+                    <a href="#" class="fa fa-at contact-icon"></a>
+                </div>
+                <div class="col s3">
+                    <a href="#" class="fa fa-facebook contact-icon"></a>
+                </div>
+                <div class="col s3">
+                    <a href="#" class="fa fa-twitter contact-icon"></a>
+                </div>
+                <div class="col s3">
+                    <a href="#" class="fa fa-linkedin contact-icon"></a>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!--JavaScript at end of body for optimized loading-->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+        (function ($) {
+            $(function () {
+                $('.sidenav').sidenav();
+                $('.parallax').parallax();
+                $('.materialboxed').materialbox();
+            });
+        })(jQuery);
+
+    </script>
+</body>
+
+<footer class="page-footer light-blue accent-3">
+    <div class="footer-copyright">
+        <div class="container">
+            © 2019 FoodGram - Jorane Emilien & Valentin Richet
+        </div>
+    </div>
+</footer>
+
+</html>
